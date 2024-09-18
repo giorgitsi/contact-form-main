@@ -30,6 +30,10 @@ body {
     border-radius: 15px;
 }
 
+.input-p {
+    margin-bottom: 5px;
+}
+
 .contact-us-container label {
     opacity: 0.6;
     font-weight: 600;
@@ -47,9 +51,7 @@ body {
     margin-top: 25px;
 }
 
-.name-input-container label {
-    margin-bottom: 5px;
-}
+
 
 .input-container {
     display: flex;
@@ -68,19 +70,46 @@ body {
     margin-bottom: 20px;
 }
 
-.checkbox-input {
+.checkbox-section-container {
     margin-bottom: 20px;
 }
 
-.checkbox-input label {
+.checkbox-section {
+    gap: 20px;
+    display: flex;
+
+}
+
+.checkbox-section-container label {
     border: 1px solid rgba(0, 0, 0, 0.331);
     border-radius: 7px;
     padding: 10px;
+    width: 100%;
 }
 
-.checkbox-input p {
+.checkbox-section-container p {
     opacity: 0.6;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+}
+
+
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    color: white;
+    background-color: hsl(169, 82%, 27%);
+    border-radius: 6px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 35px;
+}
+
+
+.consent-container label {
+    gap: 15px;
+    display: flex;
+    margin-top: 35px;
 
 }
