@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Contact form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="contact-us-container">
+    <h2>Contact Us</h2>
+    <!-- name input start -->
+    <div class="name-input-container">
+
+      <div class="input-container">
+        <label for="">First Name <span class="asterisk">*</span></label>
+        <input class="input" type="text">
+      </div>
+
+      <div class="input-container">
+        <label for="">Last Name<span class="asterisk">*</span></label>
+        <input class="input" type="text">
+      </div>
+    </div>
+    <!-- name input end -->
+
+    <!-- email input start -->
+    <div class="email-input input-container">
+      <label for="">Email address<span class="asterisk">*</span></label>
+      <input class="input" type="email">
+    </div>
+    <!-- email input end -->
+
+
+    <!-- checkbox start -->
+    <div class="checkbox-input ">
+      <p>Query Type<span class="asterisk">*</span></p>
+      <label for="">
+        <input type="checkbox">
+        General Enquiry
+      </label>
+
+      <label for="">
+        <input type="checkbox">
+        Support Request
+      </label>
+    </div>
+    <!-- checkbox end-->
+
+    <!-- message start -->
+    <div class="Message-input input-container">
+      <label for="">Message<span class="asterisk">*</span></label>
+      <input class="input" type="text">
+    </div>
+
+    <div class="Consent-chekcbox">
+      <label for="">
+        <input type="checkbox">
+        I consent to being contacted by the team *
+      </label>
+    </div>
+    <!-- message end -->
+
+    <!-- submit btn start -->
+    <button class="submit-btn">submit</button>
+    <!-- submit btn end -->
+
+  </div>
+
+</body>
+
+</html>
